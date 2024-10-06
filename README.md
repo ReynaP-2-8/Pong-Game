@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+I'm working on game design and creating a modification of a pong game using unity and in the process learning C#. To build the game, the base is off of the tutorial linked below and the parts from the tutorial are commented in the code itself. Everything else is my own ideas, but some syntax was learned from Stack Overflow and Unity Discussions. I am still learning how to program in C# and while the code may not be the most efficient, I came up with all of the pseodocode and ideas of what the game should do and how it will work by myself and reiterated by learning about Unity's capabilities. 
 <!--
 **ReynaP-2-8/ReynaP-2-8** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
