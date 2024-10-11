@@ -45,4 +45,20 @@ public class GameManager : MonoBehaviour
         player1Paddle.GetComponent<Paddle>().Reset();
         player2Paddle.GetComponent<Paddle>().Reset();
     } 
+
+    public void Player1Hit(){
+        Player1HitCount++;
+        if (Player1HitCount % 10 == 0){
+            PowerUpManager.GetComponent<PowerUpManager>().Player1Reveal();
+        }
+        Debug.Log("Player 1: " + Player1HitCount);
+    }
+
+    public void Player2Hit(){
+        Player2HitCount++;
+        if (Player2HitCount % 10 == 0){
+            PowerUpManager.GetComponent<PowerUpManager>().Player2Reveal();
+        }
+        Debug.Log("Player 2: " + Player2HitCount);
+    }
 }
